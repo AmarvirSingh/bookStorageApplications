@@ -15,6 +15,8 @@
 		EE80BB5225C1C0950011A09E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE80BB5025C1C0950011A09E /* LaunchScreen.storyboard */; };
 		EE80BB5D25C1C0950011A09E /* bookStorageApplicationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE80BB5C25C1C0950011A09E /* bookStorageApplicationsTests.swift */; };
 		EE80BB6825C1C0950011A09E /* bookStorageApplicationsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE80BB6725C1C0950011A09E /* bookStorageApplicationsUITests.swift */; };
+		EE80BB7725C1C6360011A09E /* BooksTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE80BB7625C1C6360011A09E /* BooksTVC.swift */; };
+		EE80BB7925C1C7E70011A09E /* BookData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE80BB7825C1C7E70011A09E /* BookData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		EE80BB6325C1C0950011A09E /* bookStorageApplicationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bookStorageApplicationsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE80BB6725C1C0950011A09E /* bookStorageApplicationsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bookStorageApplicationsUITests.swift; sourceTree = "<group>"; };
 		EE80BB6925C1C0950011A09E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE80BB7625C1C6360011A09E /* BooksTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksTVC.swift; sourceTree = "<group>"; };
+		EE80BB7825C1C7E70011A09E /* BookData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +105,9 @@
 			children = (
 				EE80BB4525C1C08E0011A09E /* AppDelegate.swift */,
 				EE80BB4725C1C08E0011A09E /* SceneDelegate.swift */,
-				EE80BB4925C1C08E0011A09E /* ViewController.swift */,
+				EE80BB7525C1C5930011A09E /* Controllers */,
 				EE80BB4B25C1C08E0011A09E /* Main.storyboard */,
+				EE80BB7825C1C7E70011A09E /* BookData.swift */,
 				EE80BB4E25C1C0950011A09E /* Assets.xcassets */,
 				EE80BB5025C1C0950011A09E /* LaunchScreen.storyboard */,
 				EE80BB5325C1C0950011A09E /* Info.plist */,
@@ -126,6 +131,15 @@
 				EE80BB6925C1C0950011A09E /* Info.plist */,
 			);
 			path = bookStorageApplicationsUITests;
+			sourceTree = "<group>";
+		};
+		EE80BB7525C1C5930011A09E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EE80BB4925C1C08E0011A09E /* ViewController.swift */,
+				EE80BB7625C1C6360011A09E /* BooksTVC.swift */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +273,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE80BB7925C1C7E70011A09E /* BookData.swift in Sources */,
+				EE80BB7725C1C6360011A09E /* BooksTVC.swift in Sources */,
 				EE80BB4A25C1C08E0011A09E /* ViewController.swift in Sources */,
 				EE80BB4625C1C08E0011A09E /* AppDelegate.swift in Sources */,
 				EE80BB4825C1C08E0011A09E /* SceneDelegate.swift in Sources */,
